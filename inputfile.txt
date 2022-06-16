@@ -1,0 +1,4 @@
+  database=database_name
+  table=table_name
+  partitions=partitions_names (write like p1,p2,p3)
+  path=path of backup file
