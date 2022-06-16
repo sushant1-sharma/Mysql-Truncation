@@ -6,7 +6,7 @@ For this we need to mount the mysqldump backup to a mysql docker container.
 
 Backup Mysql using mysqldump:
 
-      mysqldump -u root -p >/path/backup.sql
+      mysqldump -u root -p Database_name Table_name>/path/backup.sql
 
 Create a .txt file and add input variables in that file:
 
